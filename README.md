@@ -1,49 +1,49 @@
 #### Basic CMD 
-cd .. (up dir)
-ls/dir (list files in dir)
-cd Users (into dir)
+1. cd .. (up dir)
+2. ls/dir (list files in dir)
+3. cd Users (into dir)
 #### Git Shell/CMD
-git clone (copies a git from a link eg. http://github.com/username/project)
-"All in your working DIR"
-git status (diffrence between github and you)
-git add (adds new files/changes by file name. put into project. git add index.html)
-git add . (add all files)
-git add -A (add all files)
-git commit (locked in. Ready to be uploaded. -m "a message of changes")
-git push (take all committed files and uploads/pushes to github.com)
-git pull (pulls latest git commit.)
+1. git clone (copies a git from a link eg. http://github.com/username/project)
+-"All in your working DIR"
+2. git status (diffrence between github and you)
+3. git add (adds new files/changes by file name. put into project. git add index.html)
+4. git add . (add all files)
+5. git add -A (add all files)
+6. git commit (locked in. Ready to be uploaded. -m "a message of changes")
+7. git push (take all committed files and uploads/pushes to github.com)
+8. git pull (pulls latest git commit.)
 
-git (list all commands)
+-git (list all commands)
 
 #### Workflow
-"start"
-git pull
-"make changes"
-add
-commit a file or all files
-git push
+-"start"
+1. git pull
+-"make changes"
+2. git add
+3 .commit a file or all files
+4. git push
 #### Merge Conflict
 
-manually merge lines at helper lines
-git add -A
-git commit
+1. manually merge lines at helper lines
+2. git add -A
+3. git commit
 
 #### Stuck in cmd after commit or during one
 
-ESC (then) :wq
+- ESC (then) :wq
 
 #### Branching
-"All in your working DIR"
-git pull (latest files)
-git branch (shows master + other branches)
-git branch name-of-branch (copies MASTER)
-git checkout name-of-branch (changes to branch. Not going to mess with Master.)
-git add -A (or) git add filename.html (add edited files)
-git branch (branch selection)
-git checkout master (back to master)
-git pull (check to see if anyone else has updated master)
-git checkout name-of-branch
-git merge master
+-"All in your working DIR"
+1. git pull (latest files)
+2. git branch (shows master + other branches)
+3. git branch name-of-branch (copies MASTER)
+4. git checkout name-of-branch (changes to branch. Not going to mess with Master.)
+5. git add -A (or) git add filename.html (add edited files)
+6. git branch (branch selection)
+7. git checkout master (back to master)
+8. git pull (check to see if anyone else has updated master)
+9. git checkout name-of-branch
+10. git merge master
 
 - Begin by doing a git pull to get the latest content on your master branch
 - Run "git branch your-feature-name" to make a git branch
@@ -54,20 +54,23 @@ git merge master
 
 
 #### CMDER
---Tab manipulation--
+######Tab manipulation--
 
-Ctrl + ` : Global Summon from taskbar
-Win + Alt + p : Preferences (Or right click on title bar)
-Ctrl + t : New tab dialog (maybe you want to open cmd as admin?)
-Ctrl + w : Close tab
-Shift + Alt + number : Fast new tab:
-1. CMD
-2. PowerShell
-Alt + Enter : Fullscreen
---Shell--
+- Ctrl + ` : Global Summon from taskbar
+- Win + Alt + p : Preferences (Or right click on title bar)
+- Ctrl + t : New tab dialog (maybe you want to open cmd as admin?)
+- Ctrl + w : Close tab
+- Shift + Alt + number : Fast new tab:
+- CMD
+- PowerShell
+- Alt + Enter : Fullscreen
+######Shell
 
-Shift + Up : Traverse up in directory structure (lovely feature!)
-End, Home, Ctrl : Traverse text as usual on Windows
-Ctrl + r : History search
-Shift + mouse : Select and copy text from buffer
-Right click / Ctrl + Shift + v : Paste text
+- Shift + Up : Traverse up in directory structure (lovely feature!)
+- End, Home, Ctrl : Traverse text as usual on Windows
+- Ctrl + r : History search
+- Shift + mouse : Select and copy text from buffer
+- Right click / Ctrl + Shift + v : Paste text
+
+###### LearnCode.academy
+[YouTube Coding](https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw)
