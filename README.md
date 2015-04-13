@@ -38,6 +38,12 @@ git pull (latest files)
 git branch (shows master + other branches)
 git branch name-of-branch (copies MASTER)
 git checkout name-of-branch (changes to branch. Not going to mess with Master.)
+git add -A (or) git add filename.html (add edited files)
+git branch (branch selection)
+git checkout master (back to master)
+git pull (check to see if anyone else has updated master)
+git checkout name-of-branch
+git merge master
 
 - Begin by doing a git pull to get the latest content on your master branch
 - Run "git branch your-feature-name" to make a git branch
