@@ -1,28 +1,30 @@
 ###### install tortoise git at end
-RUBY
-C:\Ruby22
-add ruby executables
-associate files
+#`Guide For Noobs` - For Windows Users
+######Hopefully this will fix some headaches! It took me ages to figure out how to fx things and get it all running by using many, many forums.
+##Ruby
+1. `C:\Ruby22` (Better to install at C)
+2. add ruby executables
+3. associate files
+#####INSTALL DEVKIT
+    1. extract to `C:\devkit` (Better to install at C, can be anywhere though)
+    2. open "Start Command Prompt with Ruby"
+    3. `cd C:\devkit` (change to the location where you extracted it)
+    4. from `C:\devkit` (or where you extracted it)
+        1. `ruby dk.rb init` (will create files)
+        2. `ruby dk.rb review` (see if ruby path is in .yml file. Example `C:\Ruby22`)
+        3. `ruby dk.rb` install
 
-INSTALL DEVKIT C:\devkit
-from C:\devkit run:
-ruby dk.rb init
-ruby dk.rb review 
-	*Should be C:\Ruby22 dir*
-ruby dk.rb install
-
-gem install json
-	*test if working if not try below...*
+    5. `gem install json` (test if working and all is set up)
+   ###### *EVENTMACHINE PROBLEM FIX*
+   - `gem install eventmachine -v 1.0.4` 
+   - Seemed to fix it. Plenty of help on google if not. Anything else missing just install them.
+    
 NODE.js
 git 1.9.5
 use from windows cmd
 checkout windows style
 
-
-EVENTMACHINE PROBLEM FIX
-gem install eventmachine -v 1.0.4
-
-CREATE THEME IN CUR DIR
+######CREATE THEME IN CUR DIR
 dugway create "theme-name-within-this"
 RUN SERVER "theme-name" DIR
 cd theme-name/
@@ -31,12 +33,13 @@ dugway server
 *Keep CMD running to keep server running. Local server "like node"*
 127.0.0.1:9292
 
-FOUNDATION FOR APPS
-git clone https://github.com/zurb/foundation-apps-template.git appName
-cd appName
-npm install
-bower install
-npm start (compile the Sass and assemble your Angular app. **Now go to `localhost:8080` in your browser to see it in action.** When you change any file in the `client` folder, the appropriate Gulp task will run to build new files.)
+##FOUNDATION FOR APPS
+1. `git clone https://github.com/zurb/foundation-apps-template.git appName`
+2. `cd appName`
+3. `npm install`
+4. `bower install`
+5. `npm start` (compile the Sass and assemble your Angular app. 
+6.   * Now go to `localhost:8080` in your browser to see it in action.** When you change any file in the `client` folder, the appropriate Gulp task will run to build new files.)
 npm start build (builds without server)
 if files are missing change gulpfile
 ### WEB DEV
