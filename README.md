@@ -2,9 +2,12 @@
 1. cd .. (up dir)
 2. ls/dir (list files in dir)
 3. cd Users (into dir)
-#### Git Shell/CMD
+
+#### Git Shell & CMD
+
+- "All in your working DIR"
+
 1. git clone (copies a git from a link eg. http://github.com/username/project)
--"All in your working DIR"
 2. git status (diffrence between github and you)
 3. git add (adds new files/changes by file name. put into project. git add index.html)
 4. git add . (add all files)
@@ -13,15 +16,15 @@
 7. git push (take all committed files and uploads/pushes to github.com)
 8. git pull (pulls latest git commit.)
 
--git (list all commands)
+- git (list all commands)
 
 #### Workflow
--"start"
+- "start"
 1. git pull
--"make changes"
-2. git add
-3 .commit a file or all files
-4. git push
+2. "make changes"
+3. git add
+4. commit a file or all files
+5. git push
 #### Merge Conflict
 
 1. manually merge lines at helper lines
@@ -33,7 +36,9 @@
 - ESC (then) :wq
 
 #### Branching
--"All in your working DIR"
+
+- "All in your working DIR"
+
 1. git pull (latest files)
 2. git branch (shows master + other branches)
 3. git branch name-of-branch (copies MASTER)
@@ -54,7 +59,7 @@
 
 
 #### CMDER
-######Tab manipulation--
+######Tab manipulation
 
 - Ctrl + ` : Global Summon from taskbar
 - Win + Alt + p : Preferences (Or right click on title bar)
