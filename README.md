@@ -1,30 +1,28 @@
+*Written by [DannnnB](https://github.com/DannnB)*
 #### Basic CMD 
-1. cd .. (up dir)
-2. ls/dir (list files in dir)
-3. cd Users (into dir)
+1. `cd ..` (up dir)
+2. `ls` (from git bash) or `dir` (from CMD/Windows) (list files in dir)
+3. `cd Users` (change to dir)
 
 #### Git Shell & CMD
 
-- "All in your working DIR"
+1. `git clone` (copies a git from a link eg. http://github.com/username/project)
+2. `git status` (diffrence between github and you)
+3. `git add` (adds new files/changes by file name. put into project. git add index.html)
+4. `git add .` (add all files)
+5. `git add -A` (add all files)
+6. `git commit` (locked in. Ready to be uploaded. -m "a message of changes")
+7. `git push` (take all committed files and uploads/pushes to github.com)
+8. `git pull` (pulls latest git commit.)
+- `git` (list all commands)
 
-1. git clone (copies a git from a link eg. http://github.com/username/project)
-2. git status (diffrence between github and you)
-3. git add (adds new files/changes by file name. put into project. git add index.html)
-4. git add . (add all files)
-5. git add -A (add all files)
-6. git commit (locked in. Ready to be uploaded. -m "a message of changes")
-7. git push (take all committed files and uploads/pushes to github.com)
-8. git pull (pulls latest git commit.)
-- git (list all commands)
-
-#### Workflow
-
-- "start"
-1. git pull
-2. "make changes"
-3. git add
-4. commit a file or all files
-5. git push
+####Simple Workflow
+1. 
+2. `git pull`
+3. "make changes"
+4. `git add index.html` or ``
+5. `git commit -m "message for commit"` (a file or all files)
+6. `git push`
 
 #### Merge Conflict
 
