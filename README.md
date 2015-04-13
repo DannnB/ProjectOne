@@ -8,7 +8,7 @@ git clone (copies a git from a link eg. http://github.com/username/project)
 git status (diffrence between github and you)
 git add (adds new files/changes by file name. put into project. git add index.html)
 git add . (add all files)
-git add -a (add all files)
+git add -A (add all files)
 git commit (locked in. Ready to be uploaded. -m "a message of changes")
 git push (take all committed files and uploads/pushes to github.com)
 git pull (pulls latest git commit.)
@@ -25,7 +25,7 @@ git push
 #### Merge Conflict
 
 manually merge lines at helper lines
-git add -a
+git add -A
 git commit
 
 #### Stuck in cmd after commit or during one
@@ -33,6 +33,18 @@ git commit
 ESC (then) :wq
 
 #### Branching
+"All in your working DIR"
+git pull (latest files)
+git branch (shows master + other branches)
+git branch name-of-branch (copies MASTER)
+git checkout name-of-branch (changes to branch. Not going to mess with Master.)
+git add -A (or) git add filename.html (add edited files)
+git branch (branch selection)
+git checkout master (back to master)
+git pull (check to see if anyone else has updated master)
+git checkout name-of-branch
+git merge master
+
 - Begin by doing a git pull to get the latest content on your master branch
 - Run "git branch your-feature-name" to make a git branch
 - Code in your changes, add and commit the files
