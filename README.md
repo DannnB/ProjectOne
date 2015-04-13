@@ -15,16 +15,17 @@
 6. git commit (locked in. Ready to be uploaded. -m "a message of changes")
 7. git push (take all committed files and uploads/pushes to github.com)
 8. git pull (pulls latest git commit.)
-
 - git (list all commands)
 
 #### Workflow
+
 - "start"
 1. git pull
 2. "make changes"
 3. git add
 4. commit a file or all files
 5. git push
+
 #### Merge Conflict
 
 1. manually merge lines at helper lines
@@ -48,7 +49,7 @@
 7. git checkout master (back to master)
 8. git pull (check to see if anyone else has updated master)
 9. git checkout name-of-branch
-10. git merge master
+10. git merge master (merges to master branch)
 
 - Begin by doing a git pull to get the latest content on your master branch
 - Run "git branch your-feature-name" to make a git branch
