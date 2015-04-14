@@ -63,7 +63,6 @@
 - **Ctrl + w** : Close tab
 - **Shift + Alt + number** : Fast new tab
 - **Alt + Enter : Fullscreen**
-## Shell
 - **Shift + Up** : Traverse up in directory structure
 - **End, Home, Ctrl** : Traverse text as usual on Windows
 - **Ctrl + r** : History search
